@@ -17,5 +17,15 @@ public class MobilePhone implements ITelephone {
 
     }
 
+    @Override
+    public void dial(int phoneNumber) {
+        if(isOn) {
+            System.out.println("Now ringing " + phoneNumber + " on mobile phone.");
+        } else {
+            System.out.println("Phone is switched off");
+        }
+
+    }
+
 
 }
