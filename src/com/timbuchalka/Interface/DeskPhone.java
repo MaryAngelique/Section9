@@ -40,5 +40,9 @@ public class DeskPhone implements ITelephone {
     }
 
 
+    @Override
+    public boolean isRinging() {
+        return isRinging;
+    }
 
 }
