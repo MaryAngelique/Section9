@@ -17,6 +17,13 @@ public class DeskPhone implements ITelephone {
 
     }
 
+    @Override
+    public void answer() {
+        if(isRinging) {
+            System.out.println("Answering the desk phone");
+            isRinging = false;
+        }
 
+    }
 
 }
