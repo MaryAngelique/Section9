@@ -58,5 +58,14 @@ public class Player implements ISavable {
         return values;
     }
 
+    @Override
+    public void read(List<String> savedValues) {
+        if(savedValues != null && savedValues.size() >0) {
+            this.name = savedValues.get(0);
+            this.hitPoints = Integer.parseInt(savedValues.get(1));
+            this.strength = Integer.parseInt(savedValues.get(2));
+            this.weapon = savedValues.get(3);
+        }
 
+    }
 }
