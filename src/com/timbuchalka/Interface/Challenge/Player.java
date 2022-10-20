@@ -43,9 +43,19 @@ public class Player implements ISavable {
     public void setStrength(int strength) {
         this.strength = strength;
     }
-
     public void setWeapon(String weapon) {
         this.weapon = weapon;
+    }
+
+    @Override
+    public List<String> write() {
+        List<String> values = new ArrayList<String>();
+        values.add(0, this.name);
+        values.add(1, "" + this.hitPoints);
+        values.add(2, "" + this.strength);
+        values.add(3, this.weapon);
+
+        return values;
     }
 
 
