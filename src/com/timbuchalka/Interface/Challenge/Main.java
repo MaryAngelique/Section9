@@ -56,6 +56,20 @@ public class Main {
             int choice = scanner.nextInt();
             scanner.nextLine();
 
+            switch (choice) {
+
+                case 0:
+                    quit = true;
+                    break;
+
+                case 1:
+                    System.out.print("Enter a string: ");
+                    String stringInput = scanner.nextLine();
+                    values.add(index, stringInput);
+                    index++;
+                    break;
+
+            }
 
         }
 
