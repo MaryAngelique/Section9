@@ -85,7 +85,12 @@ public class Main {
         }
     }
 
+    public static void loadObject(ISaveable objectToLoad) {
 
+        ArrayList<String> values = readValues();
+        objectToLoad.read(values);
+
+    }
 
 
 }
