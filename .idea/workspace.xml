@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50694ad6-eda5-4eaf-a60f-7dbe6b3aceb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/Interface/Challenge/ISavable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/Interface/Challenge/ISavable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/Interface/Challenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/Interface/Challenge/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/Interface/Challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/Interface/Challenge/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
