@@ -50,7 +50,14 @@ public class Main {
                 "1 to enter a string\n" +
                 "0 to quit");
 
+        while (!quit) {
 
+            System.out.print("Choose an option: ");
+            int choice = scanner.nextInt();
+            scanner.nextLine();
+
+
+        }
 
         return values;
     }
