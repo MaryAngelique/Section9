@@ -1,5 +1,8 @@
 package com.timbuchalka.Interface.Challenge;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -35,5 +38,22 @@ public class Main {
         System.out.println(tim);
 
     }
+
+    public static ArrayList<String> readValues() {
+
+        ArrayList<String> values = new ArrayList<String>();
+
+        Scanner scanner = new Scanner(System.in);
+        boolean quit = false;
+        int index = 0;
+        System.out.println("Choose\n" +
+                "1 to enter a string\n" +
+                "0 to quit");
+
+
+
+        return values;
+    }
+
 
 }
