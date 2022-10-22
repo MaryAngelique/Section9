@@ -16,4 +16,8 @@ public class Gearbox {
         this.gears.add(neutral);
     }
 
+    public void operateClutch(boolean in) {
+        this.clutchIsIn = in;
+    }
+
 }
