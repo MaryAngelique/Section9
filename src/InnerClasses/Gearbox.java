@@ -46,4 +46,23 @@ public class Gearbox {
     }
 
 
+    private class Gear {
+        private int gearNumber;
+        private double ratio;
+
+        public Gear(int gearNumber, double ratio) {
+
+            this.gearNumber = gearNumber;
+            this.ratio = ratio;
+        }
+
+        public double getRatio() {
+            return ratio;
+        }
+
+        public double driveSpeed(int revs) {
+            return revs *( this.ratio);
+        }
+    }
+
 }
