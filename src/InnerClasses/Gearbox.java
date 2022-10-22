@@ -16,4 +16,14 @@ public class Gearbox {
         this.gears.add(neutral);
     }
 
+    public void operateClutch(boolean in) {
+        this.clutchIsIn = in;
+    }
+
+    public void addGear(int number, double ratio) {
+        if((number >0) && (number <= maxGears)) {
+            this.gears.add(new Gear(number, ratio));
+        }
+    }
+
 }
