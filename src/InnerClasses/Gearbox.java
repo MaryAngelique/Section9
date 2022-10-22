@@ -1,5 +1,7 @@
 package InnerClasses;
 
+import java.util.ArrayList;
+
 public class Gearbox {
 
     private ArrayList<Gear> gears;
@@ -7,6 +9,11 @@ public class Gearbox {
     private int currentGear = 0;
     private boolean clutchIsIn;
 
-
+    public Gearbox(int maxGears) {
+        this.maxGears = maxGears;
+        this.gears = new ArrayList<>();
+        Gear neutral = new Gear(0, 0.0);
+        this.gears.add(neutral);
+    }
 
 }
