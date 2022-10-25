@@ -10,7 +10,6 @@ public class Animal {
 
     public abstract void eat();
     public abstract void breathe();
-    public abstract void fly();
 
     public String getName() {
         return name;
