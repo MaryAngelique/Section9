@@ -1,20 +1,8 @@
-package AbstractClasses;
+package AbstractClasses.Challenge;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        Dog dog = new Dog("Yorkie");
-        dog.breathe();
-        dog.eat();
-
-        Parrot parrot = new Parrot("Australian ringneck");
-        parrot.breathe();
-        parrot.eat();
-        parrot.fly();
-
-        Penguin penguin = new Penguin("Emperor");
-        penguin.fly();
 
         // For this challenge, create an abstract class to define items that can be stored in a list.
         // The class should contain 2 references to items which will represent the next and previous
@@ -74,6 +62,8 @@ public class Main {
         String[] data = stringData.split(" ");
         for (String s : data) {
             // create new item with value set to the string s
+        }
 
     }
+
 }
