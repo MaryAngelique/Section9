@@ -80,6 +80,17 @@ public class Main {
         list.removeItem(new Node("2"));
         list.traverse(list.getRoot());
 
+        list.removeItem(new Node("9"));
+        list.traverse(list.getRoot());
+        list.removeItem(new Node("8"));
+        list.traverse(list.getRoot());
+        list.removeItem(new Node("6"));
+        list.traverse(list.getRoot());
+        list.removeItem(list.getRoot());
+        list.traverse(list.getRoot());
+        list.removeItem(list.getRoot());
+        list.traverse(list.getRoot());
+
     }
 
 }
