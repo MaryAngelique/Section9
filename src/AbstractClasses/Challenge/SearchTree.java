@@ -80,12 +80,17 @@ public class SearchTree {
 
 
     private void performRemoval(ListItem item, ListItem parent) {
-        return false
+        return false;
     }
 
     @Override
     public void traverse(ListItem root) {
-
+        // recursive method
+        if (root != null) {
+            traverse(root.previous());
+            System.out.println(root.getValue());
+            traverse(root.next());
+        }
     }
 
 }
